@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="/styles.css">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/icon">
         <script src="/menubar.js" type="text/javascript"></script>
         <title>
             Chefycraft | Home
@@ -10,121 +10,30 @@
     </head>
     <body>
         <header>
-            <h1 class="title">Chefycraft.net</h1>
-            <ul id="nav" class="MenuBarHorizontal MenuBarActive">
-                <li>
-                    <a class="MenuBarItemSubmenu" href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/about">About Me</a>
-                </li>
-                <li>
-                    <a class="MenuBarItemSubmenu" href="/tgmr">Minecraft Race</a>
-                    <ul>
-                        <li>
-                            <a class="MenuBarItemSubmenu" href="/map">Dynmap</a>
-                        </li>
-                        <li>
-                            <a href="https://discord.gg/6T9d9PMwSk" target="_blank" rel="noopener noreferrer">Join the Discord!</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="MenuBarItemSubmenu" href="/projects">My Projects</a>
-                    <ul>
-                        <li>
-                            <a href="/projects/drum_lights">Drum Lights</a>
-                        </li>
-                        <li>
-                            <a href="/projects/stage_crew">Stage Crew</a>
-                            <ul>
-                                <li>
-                                    <a href="/projects/theater/light_show">Light Show</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="/projects/frc">Robotics</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="MenuBarItemSubmenu" href="/packs">Modpacks</a>
-                    <ul>
-                        <li>
-                            <a href="/packs/chc">Handy Client</a>
-                        </li>
-                        <li>
-                            <a href="packs/tgmr">TGMR Pack</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="MenuBarItemSubmenu" href="/keys">Keys</a>
-                    <ul>
-                        <li>
-                            <a href="/keys/old.stl">Download Old Master</a>
-                        </li>
-                        <li>
-                            <a href="/keys/new.stl">Download New Master</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="MenuBarItemSubmenu" href="http://Github.com/Arschoepf" target="_blank" rel="noopener noreferrer">Github</a>
-                </li>
-            </ul>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '\header.html');?>
         </header>
-        <div class=parallax>
-
-        </div>
+        <div class="parallax imgMinecraft"></div>
         <main>
-            <h2>
-                Chefycraft
-            </h2>
-            <p>
-                Welcome to Chefycraft.net, the home of Alex Schoepf's creations!
+            <h2>Home</h2>
+            <h3>Introduction</h3>
+            <p class="indent">
+                Welcome to chefycraft.net, the home of Alex Schoepf's creations.
             </p>
-            <p>
-                Chefycraft.net is underconstruction at the moment.
-                I am working on a completely new website to showcase my creations, so stay tuned.
-                In the meantime, you can visit some of the links listed below to view any resources you need.
+            <h3>About</h3>
+            <p class="indent">
+                This site is intended to be a showcase for current projects, as well as an archive for past ones.
+                Below you can find descriptions for some of my current projects, or you can read more by clicking the links above.
             </p>
-            <ul>
-                <li><a href="map">Dynmap</a></li>
-                <li><a href="keys">Keys</a></li>
-            </ul>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel laoreet nibh. Integer venenatis leo a diam imperdiet, et ornare orci malesuada. Ut sed eros sed diam gravida semper sed vel lectus. Phasellus eget pellentesque massa, et pulvinar tortor. Donec pretium semper massa ut cursus. Praesent vitae viverra quam, at feugiat quam. Integer ornare venenatis arcu, sed fringilla nulla. In non aliquam augue, nec ornare ante. Cras fringilla, orci id eleifend commodo, libero dui tincidunt orci, vitae facilisis velit dui et leo. Mauris commodo congue turpis, eu malesuada magna bibendum nec. Pellentesque mattis mi sit amet ante lacinia, at sollicitudin massa consectetur. Nullam ultricies lorem at blandit iaculis. Aenean dictum venenatis tortor et scelerisque.
+            <h3>Minecraft Race</h3>
+            <p class="indent">
+                The Great Minecraft Race is a youtube series including my friends and I.
+                We will embark on an epic adventure to the coordinate (50000, 50000) while competing to see who can get there the fastest.
+                Read more <a href="/tgmr">here</a>.
             </p>
-            <p>
-                Donec id ex vel ex feugiat viverra. Donec ut vestibulum tortor, id bibendum urna. Aliquam blandit, erat nec bibendum dignissim, nunc dui aliquet libero, sit amet posuere lacus neque vel metus. Aliquam imperdiet eros quis ante faucibus, at ultricies purus blandit. Morbi semper lacinia diam, at rhoncus libero volutpat ac. Etiam vel rutrum metus. Nulla ut ligula eu lacus aliquet ornare et eu orci. Ut ut velit justo. Nunc tristique ex vitae arcu faucibus, ac convallis justo luctus.
-            </p>
-            <p>
-                In nec placerat dolor. Ut faucibus nunc sit amet ipsum facilisis ullamcorper. Sed faucibus felis laoreet, aliquet augue ac, pharetra lorem. Morbi eu enim mauris. Aenean ullamcorper varius magna, vitae ornare diam aliquet at. Donec risus leo, porta interdum erat ac, efficitur consectetur dolor. Fusce blandit, mauris sit amet lobortis cursus, erat felis congue tellus, a faucibus nulla nisl eget mi. Mauris at diam eu neque dignissim fringilla. Aenean eu posuere augue, vel fermentum dui. Vivamus ultricies varius ligula.
-            </p>
-            <p>
-                Duis ac sapien a lacus sagittis molestie eu in elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec finibus augue eget nulla hendrerit sagittis. Praesent nec mattis arcu. Aenean auctor at ligula nec eleifend. Donec ullamcorper lacus id sem lacinia, nec pellentesque sem tincidunt. Sed sed porttitor tellus.
-            </p>
+            <h3>My Projects</h3>
         </main>
         <footer>
-            <ul>
-                <li><h3>Chefycraft</h3></li>
-            </ul>
-            <ul>
-                <li><h3>TGMR</h3></li>
-                <li>Dynmap</li>
-                <li>Modpack</li>
-            </ul>
-            <ul>
-                <li><h3>Projects</h3></li>
-                <li>Drum Lights</li>
-                <li>Stage Crew</li>
-                <li>Robotics</li>
-            </ul>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '\footer.html');?>
         </footer>
-        <script type="text/javascript">
-            var nav = new Spry.Widget.MenuBar("nav", {});
-        </script>
     </body>
 </html>
