@@ -68,6 +68,16 @@ a {
     color: var(--link-color);
 }
 
+table {
+	background-color: var(--emphasized);
+	border: 1px solid var(--border-color);
+}
+
+th,td {
+	border: 1px solid var(--border-color);
+	padding: 5px;
+}
+
 /* Player bios on /tgmr */
 div.bios {
 	display: flex;
