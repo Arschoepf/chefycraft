@@ -3,7 +3,7 @@
 	--text-color: #EDF2F4;
 	--light-text: #5C5F6F;
 	--border-color: #8C909B;
-	--emphasized: #011627;
+	--emphasized-body: #011627;
 	--title-color: #1E90FF;
 	--header-color: #679436;
 	--subheader-color: #EF233C;
@@ -23,7 +23,7 @@ body {
 
 header {
 	padding-top: 10px;
-	background-color: var(--emphasized);
+	background-color: var(--emphasized-body);
 	position: sticky;
 	top: 0;
 	width: 100%;
@@ -36,7 +36,7 @@ main {
 
 footer {
 	width: 100%;
-	background-color: var(--emphasized);
+	background-color: var(--emphasized-body);
 	color: var(--light-text);
 	display: flex;
 	flex-direction: row;
@@ -69,7 +69,7 @@ a {
 }
 
 table {
-	background-color: var(--emphasized);
+	background-color: var(--emphasized-body);
 	border: 1px solid var(--border-color);
 }
 
@@ -142,6 +142,10 @@ div.imgMinecraft {
 	text-align: right;
 }
 
+.leftBlock {
+	float: left;
+}
+
 .centerBlock {
 	margin: auto;
 }
@@ -168,7 +172,7 @@ div.imgMinecraft {
 	padding: 1em 1em;
 	text-decoration: none;
 	background-color: var(--menu-color);
-	color: var(--emphasized);
+	color: var(--emphasized-body);
 	border: 1px solid var(--border-color);
 	margin: 1em 40px;
 	flex-grow: 1;
@@ -248,7 +252,7 @@ ul.MenuBarHorizontal a {
 	cursor: pointer;
 	background-color: var(--menu-color);
 	padding: 0.5em 0.75em;
-	color: var(--emphasized);
+	color: var(--emphasized-body);
 	text-decoration: none;
 	border: 1px solid var(--border-color);
 }
