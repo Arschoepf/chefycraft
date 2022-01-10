@@ -176,7 +176,8 @@ div.imgMinecraft {
 	border: 1px solid var(--border-color);
 	margin: 1em 40px;
 	flex-grow: 1;
-	width: 100%
+	width: 100%;
+	cursor: pointer;
 }
 
 div.buttonContainer {
